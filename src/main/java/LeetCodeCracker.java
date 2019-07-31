@@ -31,11 +31,11 @@ public class LeetCodeCracker {
     private static void executeSolution(int id){
 
         ISolution solution;
-        switch (id){
-            //TODO: add more case when there are new solutions
-            default:
-                solution = new DefaultSolution(id);
-                break;
+        //TODO: add more case when there are new solutions
+        if (id == 394) {
+            solution = new DecodeString();
+        } else {
+            solution = new DefaultSolution(id);
         }
 
         System.out.println("\nStart executing solution for problem #["+id+"]");
