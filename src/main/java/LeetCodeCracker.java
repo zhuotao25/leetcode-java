@@ -32,7 +32,10 @@ public class LeetCodeCracker {
 
         ISolution solution;
         //TODO: add more case when there are new solutions
-        if (id == 394) {
+        if(id == 13){
+            solution = new RomanToInteger();
+        }
+        else if (id == 394) {
             solution = new DecodeString();
         } else {
             solution = new DefaultSolution(id);
