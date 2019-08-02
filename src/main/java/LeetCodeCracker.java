@@ -32,17 +32,23 @@ public class LeetCodeCracker {
 
         ISolution solution;
         //TODO: add more case when there are new solutions
-        if(id == 13){
-            solution = new RomanToInteger();
-        }
-        else if (id == 394) {
-            solution = new DecodeString();
-        } else {
-            solution = new DefaultSolution(id);
+        switch (id) {
+            case 13:
+                solution = new RomanToInteger();
+                break;
+            case 394:
+                solution = new DecodeString();
+                break;
+            case 986:
+                solution = new IntervalListIntersections();
+                break;
+            default:
+                solution = new DefaultSolution(id);
+                break;
         }
 
         System.out.println("\nStart executing solution for problem #["+id+"]");
-        System.out.println("/==============================================\\");
+        System.out.println("==============================================");
         long startTime = System.nanoTime();
 
         // Show problem details
@@ -52,7 +58,7 @@ public class LeetCodeCracker {
 
         long endTime = System.nanoTime();
         long timeElapsed = endTime - startTime;
-        System.out.println("\\==============================================/");
+        System.out.println("==============================================");
         System.out.println("Execution time in nanoseconds: " + timeElapsed);
         System.out.println("Execution time in milliseconds: " + timeElapsed / 1000000);
     }
