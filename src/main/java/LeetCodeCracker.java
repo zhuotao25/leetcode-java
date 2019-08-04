@@ -36,6 +36,9 @@ public class LeetCodeCracker {
             case 13:
                 solution = new RomanToInteger();
                 break;
+            case 273:
+                solution = new IntegerToEnglishWords();
+                break;
             case 344:
                 solution = new ReverseString();
                 break;
