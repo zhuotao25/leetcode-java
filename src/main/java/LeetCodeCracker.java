@@ -39,6 +39,9 @@ public class LeetCodeCracker {
             case 273:
                 solution = new IntegerToEnglishWords();
                 break;
+            case 332:
+                solution = new ReconstructItinerary();
+                break;
             case 344:
                 solution = new ReverseString();
                 break;
