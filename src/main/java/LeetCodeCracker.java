@@ -31,29 +31,15 @@ public class LeetCodeCracker {
     private static void executeSolution(int id){
 
         ISolution solution;
-        //TODO: add more case when there are new solutions
         switch (id) {
-            case 13:
-                solution = new RomanToInteger();
-                break;
-            case 273:
-                solution = new IntegerToEnglishWords();
-                break;
-            case 332:
-                solution = new ReconstructItinerary();
-                break;
-            case 344:
-                solution = new ReverseString();
-                break;
-            case 394:
-                solution = new DecodeString();
-                break;
-            case 986:
-                solution = new IntervalListIntersections();
-                break;
-            default:
-                solution = new DefaultSolution(id);
-                break;
+            case 13: solution = new RomanToInteger(); break;
+            case 273: solution = new IntegerToEnglishWords(); break;
+            case 332: solution = new ReconstructItinerary(); break;
+            case 344: solution = new ReverseString(); break;
+            case 394: solution = new DecodeString(); break;
+            case 981: solution = new TimeBasedKeyValueStore(); break;
+            case 986: solution = new IntervalListIntersections(); break;
+            default: solution = new DefaultSolution(id); break;
         }
 
         System.out.println("\nStart executing solution for problem #["+id+"]");
