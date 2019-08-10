@@ -32,6 +32,7 @@ public class LeetCodeCracker {
 
         ISolution solution;
         switch (id) {
+            case 9: solution = new PalindromeNumber(); break;
             case 13: solution = new RomanToInteger(); break;
             case 68: solution = new TextJustification(); break;
             case 273: solution = new IntegerToEnglishWords(); break;
