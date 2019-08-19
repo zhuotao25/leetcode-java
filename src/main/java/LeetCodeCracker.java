@@ -15,7 +15,7 @@ public class LeetCodeCracker {
         try (Scanner scanner = new Scanner(System.in)) {
             while (true) {
                 try {
-                    System.out.println("Please enter a number: ");
+                    System.out.println("Please enter problem number: ");
                     id = scanner.nextInt();
                     break;
                 } catch (InputMismatchException ex) {
@@ -35,6 +35,7 @@ public class LeetCodeCracker {
             case 9: solution = new PalindromeNumber(); break;
             case 13: solution = new RomanToInteger(); break;
             case 68: solution = new TextJustification(); break;
+            case 202: solution = new HappyNumber(); break;
             case 273: solution = new IntegerToEnglishWords(); break;
             case 332: solution = new ReconstructItinerary(); break;
             case 344: solution = new ReverseString(); break;
