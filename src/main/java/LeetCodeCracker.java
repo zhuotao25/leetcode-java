@@ -35,6 +35,7 @@ public class LeetCodeCracker {
             case 9: solution = new PalindromeNumber(); break;
             case 13: solution = new RomanToInteger(); break;
             case 68: solution = new TextJustification(); break;
+            case 125: solution = new ValidPalindrome(); break;
             case 202: solution = new HappyNumber(); break;
             case 273: solution = new IntegerToEnglishWords(); break;
             case 332: solution = new ReconstructItinerary(); break;
