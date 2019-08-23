@@ -38,6 +38,7 @@ public class LeetCodeCracker {
             case 125: solution = new ValidPalindrome(); break;
             case 202: solution = new HappyNumber(); break;
             case 273: solution = new IntegerToEnglishWords(); break;
+            case 283: solution = new MoveZeroes(); break;
             case 332: solution = new ReconstructItinerary(); break;
             case 344: solution = new ReverseString(); break;
             case 394: solution = new DecodeString(); break;
