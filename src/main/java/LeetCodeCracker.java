@@ -42,6 +42,7 @@ public class LeetCodeCracker {
             case 332: solution = new ReconstructItinerary(); break;
             case 344: solution = new ReverseString(); break;
             case 394: solution = new DecodeString(); break;
+            case 412: solution = new FizzBuzz(); break;
             case 981: solution = new TimeBasedKeyValueStore(); break;
             case 986: solution = new IntervalListIntersections(); break;
             default: solution = new DefaultSolution(id); break;
