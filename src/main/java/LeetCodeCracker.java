@@ -34,6 +34,7 @@ public class LeetCodeCracker {
         switch (id) {
             case 9: solution = new PalindromeNumber(); break;
             case 13: solution = new RomanToInteger(); break;
+            case 67: solution = new AddBinary(); break;
             case 68: solution = new TextJustification(); break;
             case 125: solution = new ValidPalindrome(); break;
             case 202: solution = new HappyNumber(); break;
