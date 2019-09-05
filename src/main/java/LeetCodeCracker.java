@@ -38,6 +38,7 @@ public class LeetCodeCracker {
             case 53: solution = new MaximumSubarray(); break;
             case 67: solution = new AddBinary(); break;
             case 68: solution = new TextJustification(); break;
+            case 101: solution = new SymmetricTree(); break;
             case 125: solution = new ValidPalindrome(); break;
             case 202: solution = new HappyNumber(); break;
             case 273: solution = new IntegerToEnglishWords(); break;
@@ -60,10 +61,10 @@ public class LeetCodeCracker {
         // Execute the solution
         solution.execute();
 
-        long endTime = System.nanoTime();
-        long timeElapsed = endTime - startTime;
-        System.out.println("==============================================");
-        System.out.println("Execution time in nanoseconds: " + timeElapsed);
-        System.out.println("Execution time in milliseconds: " + timeElapsed / 1000000);
+//        long endTime = System.nanoTime();
+//        long timeElapsed = endTime - startTime;
+//        System.out.println("==============================================");
+//        System.out.println("Execution time in nanoseconds: " + timeElapsed);
+//        System.out.println("Execution time in milliseconds: " + timeElapsed / 1000000);
     }
 }
