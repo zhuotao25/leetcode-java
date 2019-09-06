@@ -40,6 +40,7 @@ public class LeetCodeCracker {
             case 68: solution = new TextJustification(); break;
             case 101: solution = new SymmetricTree(); break;
             case 125: solution = new ValidPalindrome(); break;
+            case 136: solution = new SingleNumber(); break;
             case 202: solution = new HappyNumber(); break;
             case 273: solution = new IntegerToEnglishWords(); break;
             case 283: solution = new MoveZeroes(); break;
@@ -54,7 +55,7 @@ public class LeetCodeCracker {
 
         System.out.println("\nStart executing solution for problem #["+id+"]");
         System.out.println("==============================================");
-        long startTime = System.nanoTime();
+//        long startTime = System.nanoTime();
 
         // Show problem details
         solution.showProblemDetails();
