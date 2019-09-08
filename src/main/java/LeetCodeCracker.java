@@ -41,6 +41,7 @@ public class LeetCodeCracker {
             case 101: solution = new SymmetricTree(); break;
             case 125: solution = new ValidPalindrome(); break;
             case 136: solution = new SingleNumber(); break;
+            case 141: solution = new LinkedListCycle(); break;
             case 202: solution = new HappyNumber(); break;
             case 273: solution = new IntegerToEnglishWords(); break;
             case 283: solution = new MoveZeroes(); break;
