@@ -32,6 +32,7 @@ public class LeetCodeCracker {
 
         ISolution solution;
         switch (id) {
+            case 6: solution = new ReverseInteger(); break;
             case 9: solution = new PalindromeNumber(); break;
             case 13: solution = new RomanToInteger(); break;
             case 14: solution = new LongestCommonPrefix(); break;
