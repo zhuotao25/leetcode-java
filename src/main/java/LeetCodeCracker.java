@@ -39,6 +39,7 @@ public class LeetCodeCracker {
             case 53: solution = new MaximumSubarray(); break;
             case 67: solution = new AddBinary(); break;
             case 68: solution = new TextJustification(); break;
+            case 88: solution = new MergeSortedArray(); break;
             case 101: solution = new SymmetricTree(); break;
             case 125: solution = new ValidPalindrome(); break;
             case 136: solution = new SingleNumber(); break;
