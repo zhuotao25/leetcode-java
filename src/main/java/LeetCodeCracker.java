@@ -46,6 +46,7 @@ public class LeetCodeCracker {
             case 141: solution = new LinkedListCycle(); break;
             case 160: solution = new IntersectionOfTwoLinkedLists(); break;
             case 202: solution = new HappyNumber(); break;
+            case 204: solution = new CountPrimes(); break;
             case 273: solution = new IntegerToEnglishWords(); break;
             case 283: solution = new MoveZeroes(); break;
             case 332: solution = new ReconstructItinerary(); break;
