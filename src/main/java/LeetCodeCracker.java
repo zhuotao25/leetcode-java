@@ -36,6 +36,7 @@ public class LeetCodeCracker {
             case 9: solution = new PalindromeNumber(); break;
             case 13: solution = new RomanToInteger(); break;
             case 14: solution = new LongestCommonPrefix(); break;
+            case 21: solution = new MergeTwoSortedLists(); break;
             case 53: solution = new MaximumSubarray(); break;
             case 67: solution = new AddBinary(); break;
             case 68: solution = new TextJustification(); break;
