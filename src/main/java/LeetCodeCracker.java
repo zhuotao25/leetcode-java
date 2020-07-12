@@ -42,6 +42,7 @@ public class LeetCodeCracker {
             case 68: solution = new TextJustification(); break;
             case 88: solution = new MergeSortedArray(); break;
             case 101: solution = new SymmetricTree(); break;
+            case 106: solution = new ConstructBinaryTreeFromInorderAndPostorderTraversal(); break;
             case 125: solution = new ValidPalindrome(); break;
             case 136: solution = new SingleNumber(); break;
             case 141: solution = new LinkedListCycle(); break;
