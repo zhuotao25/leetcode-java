@@ -15,7 +15,7 @@ public class LeetCodeCracker {
         try (Scanner scanner = new Scanner(System.in)) {
             while (true) {
                 try {
-                    System.out.println("Please enter problem number: ");
+                    System.out.print("Please enter problem number: ");
                     id = scanner.nextInt();
                     break;
                 } catch (InputMismatchException ex) {
